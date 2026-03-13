@@ -1,4 +1,4 @@
-# 🔋 Renewable Grid Stability Classifier
+# Renewable Grid Stability Classifier
 
 **SDG 7 — Affordable and Clean Energy**
 
@@ -6,7 +6,7 @@ A machine learning project that classifies smart grid power intervals as **stabl
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 | Property | Details |
 |---|---|
@@ -19,7 +19,7 @@ A machine learning project that classifies smart grid power intervals as **stabl
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -39,7 +39,7 @@ project/
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
@@ -58,7 +58,7 @@ jupyter
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 **Step 1** — Download the dataset from Kaggle:
 > https://www.kaggle.com/datasets/pcbreviglieri/smart-grid-stability
@@ -80,7 +80,7 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** UCI Machine Learning Repository — Smart Grid Stability
 **Size:** 60,000 rows × 14 columns
@@ -107,7 +107,7 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-## 🔄 Notebook Walkthrough
+## Notebook Walkthrough
 
 | Cell | Section | What it does |
 |---|---|---|
@@ -126,7 +126,7 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-## 🤖 Models Compared
+## Models Compared
 
 | Model | How it works |
 |---|---|
@@ -138,15 +138,15 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-## 📈 Results
+## Results
 
-### 📊 Exploratory Data Analysis
+### Exploratory Data Analysis
 
 ![EDA](outputs/01_eda.png)
 
 ---
 
-### 📊 Model Comparison
+### Model Comparison
 
 ![Model Comparison](outputs/02_model_comparison.png)
 
@@ -172,19 +172,19 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-### 📊 Precision-Recall & ROC Curves
+### Precision-Recall & ROC Curves
 
 ![PR and ROC Curves](outputs/03_pr_roc_curves.png)
 
 ---
 
-### 📊 Best Model — Confusion Matrix & Feature Importance
+### Best Model — Confusion Matrix & Feature Importance
 
 ![Best Model](outputs/04_best_model.png)
 
 ---
 
-### 📊 Sequence Length Tuning
+### Sequence Length Tuning
 
 ![Sequence Tuning](outputs/05_sequence_tuning.png)
 
@@ -202,7 +202,7 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 - **Random Forest** is the best model — it handles the non-linear relationships between reaction times and stability better than simpler models
 - **reaction_producer** and **power_producer** are the most important features — the speed and power of the main producer node has the highest impact on grid stability
@@ -211,7 +211,7 @@ jupyter notebook grid_stability.ipynb
 
 ---
 
-## 🌍 SDG 7 Connection
+## SDG 7 Connection
 
 This project supports **SDG 7: Affordable and Clean Energy** by:
 
@@ -221,7 +221,7 @@ This project supports **SDG 7: Affordable and Clean Energy** by:
 
 ---
 
-## 📚 References
+## References
 
 - Arzamasov, V., Böhm, K., & Jochem, P. (2018). *Towards Concise Models of Grid Stability*. IEEE PES Innovative Smart Grid Technologies Europe
 - UCI ML Repository: https://archive.ics.uci.edu/dataset/471
